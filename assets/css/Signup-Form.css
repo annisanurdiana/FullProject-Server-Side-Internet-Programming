@@ -1,0 +1,75 @@
+.signup {
+  height: 950px;
+  background: #475d62 url(../img/dark_city.jpg);
+  background-color: #117a6cce;
+  background-blend-mode: multiply;
+  opacity: 7;
+  background-size: cover;
+  position: relative;
+}
+
+.signup_admin {
+  height: 950px;
+  background: #475d62 url(../img/sky-city.jpg);
+  background-color: #5c117ace;
+  background-blend-mode: multiply;
+  opacity: 7;
+  background-size: cover;
+  position: relative;
+}
+
+
+.login-form h2.form-heading {
+  color: #fafdff;
+  font-size: 34px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+form.custom-form {
+  opacity: 0.8;
+  text-align: left;
+  border-top: 2px solid #5b5b5f;
+  padding: 40px;
+  color: #ffffff;
+  box-shadow: 3px 3px 4px rgba(158, 154, 158, 0.384);    
+  backdrop-filter: blur(21px) saturate(116%);
+  -webkit-backdrop-filter: blur(21px) saturate(116%);
+  background-color: rgba(20, 20, 20, 0.466);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+
+.custom-form .form-group {
+  margin-bottom: 25px;
+}
+
+.custom-form .form-group input {
+  border: 1px solid rgb(250, 248, 255);
+}
+
+.custom-form button.btn.btn-default.btn-block.dropdown-toggle {
+  text-align: left;
+  color: #5f5f5f;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+div.radio {
+  margin: 14px 0;
+}
+
+.custom-form .submit-button {
+  border-radius: 2px;
+  background: #4c4c4d;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.418);
+  padding: 14px 22px;
+  border: 0;
+  margin: 30px auto 0;
+  outline: none;
+}
+

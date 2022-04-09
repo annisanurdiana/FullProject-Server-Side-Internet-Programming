@@ -1,0 +1,48 @@
+
+
+/* Splash Screen */
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    transition: 1.2s;
+}
+
+.wellcome-header {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 92px;
+
+}
+
+.wellcome {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.wellcome.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-out 0.69s;
+}
+
+.wellcome.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: linear 0.69s;
+}
+
+
+
+
+

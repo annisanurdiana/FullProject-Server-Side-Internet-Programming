@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+header h4{
+    position: absolute;
+    left: 10%;
+    bottom: 1 rem;
+    font-size: 1.6rem;
+}
+
+.repo {
+    background-color: blue;
+}
+
+.page_admin {
+    height: 950px;
+    background:url(../img/lightgrey.gif);
+    background-blend-mode: multiply;
+    opacity: 7;
+    background-size: cover;
+    position: relative;
+  }
+
+/* Splash Screen */
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    transition: 1.7s;
+}
+
+.wellcome-header {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-size: 79px;
+
+}
+
+.wellcome {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.wellcome.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-out 0.99s;
+}
+
+.wellcome.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: linear 0.99s;
+}
+
+.cardshadow{
+    background-color: blueviolet;
+}
+.info{
+    text-align: center;
+}
+.infobtn{
+    text-align: center;
+    padding: 0 4px 0 4px;
+    font-size: 13px;
+    background-color: rgb(139, 0, 151);
+    box-shadow: 2px white;
+    color: white;
+}
